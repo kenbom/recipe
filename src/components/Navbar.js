@@ -32,7 +32,7 @@ const Navbar = () => {
               activeClassName="active-link"
               onClick ={ () => { setShow(false) }}
             >
-              Recipes
+              Reci
             </Link>
             <Link to="/tags" className="nav-link" activeClassName="active-link" onClick ={ () => { setShow(false) }}>
               tags
