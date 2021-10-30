@@ -35,7 +35,7 @@ const Navbar = () => {
               Recipes
             </Link>
             <Link to="/tags" className="nav-link" activeClassName="active-link" onClick ={ () => { setShow(false) }}>
-              tags
+              tag
             </Link>
             <Link
               to="/about"
