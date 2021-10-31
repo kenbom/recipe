@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import { StaticImage } from "gatsby-plugin-image"
 
 import "normalize.css"
 import "../assets/css/main.css"
@@ -11,9 +12,23 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <TestStyled>
-          <h3>Hello world! What a beautiful view!</h3>
-        </TestStyled>
+        <main className="page">
+          <header className="hero">
+            <StaticImage
+              src="../assets/images/main.jpeg"
+              alt="eggs"
+              className="hero-img"
+              placeholder="tracedSVG"
+              layout="fullWidth"
+            ></StaticImage>
+            <div className="hero-container">
+              <div className="hero-text">
+                <h1>simply recipes</h1>
+                <h4>no fluff, just recipes</h4>
+              </div>
+            </div>
+          </header>
+        </main>
       </Layout>
     </>
   )
