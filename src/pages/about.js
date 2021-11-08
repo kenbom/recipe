@@ -10,7 +10,6 @@ const About = () => {
           <section className="about-page">
             <article>
               <h2>I'm baby coloring book poke taxidermy</h2>
-            </article>
             <p>
               Taxidermy forage glossier letterpress heirloom before they sold
               out you probably haven't heard of them banh mi biodiesel chia
@@ -19,19 +18,16 @@ const About = () => {
               Taiyaki tumblr flexitarian jean shorts brunch, aesthetic salvia
               retro.
             </p>
-          </section>
-          <Link to="/contact" className="btn" />
-        </main>
+          <Link to="/contact" className="btn" > contact </Link>
+</article>         
         <StaticImage 
         src="../assets/images/about.jpeg" 
         alt="Person Pouring"
         className="about-img"
         placeholder="blurred"
         />
-        
-
-
-        
+          </section>
+        </main>
       </Layout>
     )
 }
