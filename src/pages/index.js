@@ -35,8 +35,4 @@ export default function Home() {
   )
 }
 
-export const TestStyled = styled.h3`
-  color: orange;
-  font-size: 10px;
-  background-color: #000;
-`
+
